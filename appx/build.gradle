@@ -20,7 +20,6 @@ android {
     }
 }
 dependencies {
-    api fileTree(dir: "libs", include: ["*.aar"])
 //    0 start
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 //   Base
@@ -69,4 +68,8 @@ dependencies {
     testImplementation 'junit:junit:4.13'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    implementation project(':entity')
+    implementation project(':master')
+    implementation project(':binding')
 }

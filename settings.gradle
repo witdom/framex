@@ -1,3 +1,6 @@
+include ':entity'
+include ':master'
+include ':binding'
 include ':appx'
 include ':app'
 rootProject.name = "framex"

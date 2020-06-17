@@ -1,2 +1,2 @@
 # framex
-Framex
+Framex for android.
